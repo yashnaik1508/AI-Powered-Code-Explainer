@@ -1,0 +1,17 @@
+# IDEs and Tools
+.idea/
+.vscode/
+.metadata/
+*.log
+.DS_Store
+
+# Backend (Spring Boot)
+Backend/target/
+*.class
+
+# Frontend (Vite + React)
+Frontend/node_modules/
+Frontend/dist/
+Frontend/dist-ssr/
+Frontend/*.local
+Frontend/.env
