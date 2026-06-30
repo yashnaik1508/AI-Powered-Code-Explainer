@@ -110,3 +110,9 @@ Screenshots will be added after deployment.
 2. Run `npm install`.
 3. Run `npm run dev`.
 4. The frontend runs at http://localhost:5174.
+
+## Note
+
+To simplify the evaluation process, the project is configured with a working Gemini API key so it can be executed without additional configuration.
+
+For production deployments or public repositories, API keys should never be committed to source control and should instead be managed through environment variables or a secure secrets manager.
