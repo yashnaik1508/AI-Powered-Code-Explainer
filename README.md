@@ -23,7 +23,7 @@ A full-stack web application built using React, Spring Boot, and Google Gemini A
 - CSS (Vanilla)
 
 **Backend**
-- Java
+- Java 21
 - Spring Boot
 - Maven
 
@@ -92,10 +92,10 @@ Screenshots will be added after deployment.
 1. Navigate to the `Backend` directory.
 2. Add your Gemini API Key in `src/main/resources/application.properties` (`gemini.api.key=YOUR_GEMINI_API_KEY_HERE`).
 3. Run `./mvnw spring-boot:run`.
-4. Starts the backend on http://localhost:9091
+4. The backend runs at http://localhost:9091.
 
 ### Frontend
 1. Navigate to the `Frontend` directory.
 2. Run `npm install`.
 3. Run `npm run dev`.
-4. Starts the frontend on http://localhost:5174
+4. The frontend runs at http://localhost:5174.
