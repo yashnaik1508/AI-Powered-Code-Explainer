@@ -25,6 +25,7 @@ A full-stack web application built using React, Spring Boot, and Google Gemini A
 **Backend**
 - Java 21
 - Spring Boot
+- REST API
 - Maven
 
 **AI**
@@ -52,12 +53,22 @@ The application follows a decoupled client-server architecture. The frontend com
 ```text
 AI-Powered-Code-Explainer
 │
-├── Backend
+├── Backend/
 │
-├── Frontend
+├── Frontend/
 │
 └── README.md
 ```
+
+## Application Workflow
+
+1. The user selects a programming language (Python or JavaScript).
+2. The user enters a code snippet in the editor.
+3. The React frontend sends the request to the Spring Boot backend via a REST API.
+4. The backend validates the selected language and forwards the request to Google Gemini.
+5. Gemini returns a structured JSON response containing the explanation, purpose, expected output, and complexity analysis.
+6. The backend parses the response and sends it back to the frontend.
+7. The frontend displays the analysis in a user-friendly format.
 
 ## Technical Decisions
 
