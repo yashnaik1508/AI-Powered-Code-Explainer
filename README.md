@@ -113,6 +113,4 @@ Screenshots will be added after deployment.
 
 ## Note
 
-To simplify the evaluation process, the project is configured with a working Gemini API key so it can be executed without additional configuration.
-
-For production deployments or public repositories, API keys should never be committed to source control and should instead be managed through environment variables or a secure secrets manager.
+**Important:** You must provide your own Gemini API key to run this project. Please open `Backend/src/main/resources/application.properties` and replace `YOUR_GEMINI_API_KEY_HERE` with your actual API key before starting the backend server.
